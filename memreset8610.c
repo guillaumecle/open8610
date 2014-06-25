@@ -66,8 +66,8 @@ int main(int argc, char *argv[])
     if (enable == 1)
     {
         printf("Wiping data history from the ws8610\n");
-        data[0] = 0x80;
-        data[1] = 0x02;
+        data[0] = 0x00;
+        data[1] = 0x00;
         write_data(ws, 0x0009, 2, data);
     }
 

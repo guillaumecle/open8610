@@ -12,6 +12,9 @@ target_link_libraries (dump8610 rw8610)
 add_executable (history8610 history8610.c)
 target_link_libraries (history8610 rw8610)
 
+add_executable (display8610 display8610.c)
+target_link_libraries (display8610 rw8610)
+
 add_executable (log8610 log8610.c)
 target_link_libraries (log8610 rw8610)
 
